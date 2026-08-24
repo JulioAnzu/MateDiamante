@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mate Diamante | Preparación Académica y Regularización</title>
+    <meta name="description" content="Plataforma de preparación académica para exámenes de admisión UNAM, IPN, UAM, EXANI-II, COMIPEMS, Bachillerato y Regularización de Matemáticas para niños.">
+    <!-- FontAwesome para iconos de la interfaz -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Hoja de estilos externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-brand">
+                <img src="logomd.png" alt="Mate Diamante Logo" class="nav-logo">
+                <span class="brand-name">MATE DIAMANTE</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#cursos" class="nav-link">Cursos</a></li>
+                <li><a href="#nosotros" class="nav-link">¿Por qué nosotros?</a></li>
+                <li><a href="#incluye" class="nav-link">¿Qué incluye?</a></li>
+                <li><a href="#metodologia" class="nav-link">Metodología</a></li>
+                <li><a href="#kids" class="nav-link">Kids</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                </button>
+
+                <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20gustaría%20solicitar%20información." target="_blank" class="btn btn-nav-wa" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Contactar</span>
+                </a>
+
+                <button class="hamburger" id="hamburger" aria-label="Abrir Menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-background-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        
+        <div class="container hero-grid">
+            <div class="hero-content reveal-left">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-gem"></i> Tu futuro académico empieza aquí
+                </div>
+                <h1 class="hero-title">Prepárate para tu <span class="text-gradient">próximo objetivo</span></h1>
+                <p class="hero-description">
+                    Especialistas en preparación de alto rendimiento para exámenes de admisión universitaria, educación media superior, acreditación de bachillerato y regularización de matemáticas.
+                </p>
+                
+                <div class="hero-tags">
+                    <span class="tag-pill tag-unam">UNAM</span>
+                    <span class="tag-pill tag-ipn">IPN</span>
+                    <span class="tag-pill tag-uam">UAM</span>
+                    <span class="tag-pill tag-exani">EXANI-II</span>
+                    <span class="tag-pill tag-comipems">COMIPEMS / ECOEMS</span>
+                    <span class="tag-pill tag-bach">BACHILLERATO EN UN EXAMEN</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#cursos" class="btn btn-primary">Ver Cursos</a>
+                    <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20gustaría%20solicitar%20información." target="_blank" class="btn btn-whatsapp-outline">
+                        <i class="fa-brands fa-whatsapp"></i> Solicitar Info
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper reveal-right">
+                <div class="hero-img-container">
+                    <div class="img-glow"></div>
+                    <img src="recomendaciones.png" alt="Mate Diamante Resultados y Recomendaciones" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURSOS SECTION -->
+    <section id="cursos" class="section-padding courses-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Encuentra la preparación que necesitas</h2>
+                <p class="section-subtitle">Programas enfocados en resultados reales para cada etapa educativa</p>
+            </div>
+
+            <div class="courses-grid">
+                
+                <!-- UNAM -->
+                <div class="course-card card-unam reveal-up">
+                    <div class="card-img-wrapper">
+                        <img src="unam.jpg" alt="Curso UNAM Mate Diamante">
+                        <div class="card-badge">Superior</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header-icon">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <h3>Curso UNAM</h3>
+                        <p>Preparación especializada orientada al temario oficial de la Universidad Nacional Autónoma de México.</p>
+                        <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20interesa%20recibir%20información%20sobre%20el%20Curso%20UNAM." target="_blank" class="btn-card btn-card-unam">
+                            Info por WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- IPN -->
+                <div class="course-card card-ipn reveal-up" style="animation-delay: 0.1s;">
+                    <div class="card-img-wrapper">
+                        <img src="ipn.jpg" alt="Curso IPN Mate Diamante">
+                        <div class="card-badge">Superior</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3>Curso IPN</h3>
+                        <p>Dominio de áreas científico-matemáticas adaptado al exigente nivel del Instituto Politécnico Nacional.</p>
+                        <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20interesa%20recibir%20información%20sobre%20el%20Curso%20IPN." target="_blank" class="btn-card btn-card-ipn">
+                            Info por WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- UAM -->
+                <div class="course-card card-uam reveal-up" style="animation-delay: 0.2s;">
+                    <div class="card-img-wrapper">
+                        <img src="uam.jpg" alt="Curso UAM Mate Diamante">
+                        <div class="card-badge">Superior</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header-icon">
+                            <i class="fa-solid fa-square-root-variable"></i>
+                        </div>
+                        <h3>Curso UAM</h3>
+                        <p>Estrategias avanzadas y resolución de reactivos tipo para ingresar a la Universidad Autónoma Metropolitana.</p>
+                        <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20interesa%20recibir%20información%20sobre%20el%20Curso%20UAM." target="_blank" class="btn-card btn-card-uam">
+                            Info por WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- EXANI-II -->
+                <div class="course-card card-exani reveal-up">
+                    <div class="card-img-wrapper">
+                        <img src="exani.png" alt="Curso EXANI-II Mate Diamante">
+                        <div class="card-badge">Superior / Diversas Instituciones</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3>EXANI-II</h3>
+                        <p>Entrenamiento integral enfocado en pensamiento matemático, analítico y comprensión lectora.</p>
+                        <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20interesa%20recibir%20información%20sobre%20la%20preparación%20para%20EXANI-II." target="_blank" class="btn-card btn-card-exani">
+                            Info por WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- COMIPEMS / ECOEMS -->
+                <div class="course-card card-comipems reveal-up" style="animation-delay: 0.1s;">
+                    <div class="card-img-wrapper">
+                        <img src="comipems.webp" alt="Curso COMIPEMS ECOEMS Mate Diamante">
+                        <div class="card-badge">Media Superior</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header-icon">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <h3>COMIPEMS / ECOEMS</h3>
+                        <p>Preparación dinámica y efectiva para asegurar tu lugar en la preparatoria o bachillerato de tu elección.</p>
+                        <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20interesa%20recibir%20información%20sobre%20la%20preparación%20COMIPEMS/ECOEMS." target="_blank" class="btn-card btn-card-comipems">
+                            Info por WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BACHILLERATO -->
+                <div class="course-card card-bach reveal-up" style="animation-delay: 0.2s;">
+                    <div class="card-img-wrapper">
+                        <img src="prepa.avif" alt="Bachillerato en un Examen Mate Diamante">
+                        <div class="card-badge">Acreditación Oficial</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3>Bachillerato en un Examen</h3>
+                        <p>Capacitación dirigida para EXACER COLBACH, ACREDITA-BACH y CENEVAL Prepa en un examen.</p>
+                        <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20interesa%20recibir%20información%20sobre%20la%20preparación%20para%20acreditar%20u%20obtener%20el%20bachillerato%20en%20un%20solo%20examen." target="_blank" class="btn-card btn-card-bach">
+                            Info por WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- POR QUÉ NOSOTROS -->
+    <section id="nosotros" class="section-padding bg-alt">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">¿Por qué elegir Mate Diamante?</h2>
+                <p class="section-subtitle">Un enfoque diseñado para garantizar tu aprendizaje y confianza</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card reveal-up">
+                    <div class="benefit-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <h3>Clases en Vivo</h3>
+                    <p>Interactúa directamente con el profesor, resuelve dudas al momento y participa activamente.</p>
+                </div>
+
+                <div class="benefit-card reveal-up" style="animation-delay: 0.1s;">
+                    <div class="benefit-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Plataforma 24/7</h3>
+                    <p>Acceso constante a tus contenidos pedagógicos desde cualquier lugar y en cualquier horario.</p>
+                </div>
+
+                <div class="benefit-card reveal-up" style="animation-delay: 0.2s;">
+                    <div class="benefit-icon"><i class="fa-solid fa-video"></i></div>
+                    <h3>Clases Grabadas</h3>
+                    <p>Revive cada sesión explicativa para repasar a tu propio ritmo las veces que sea necesario.</p>
+                </div>
+
+                <div class="benefit-card reveal-up" style="animation-delay: 0.3s;">
+                    <div class="benefit-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+                    <h3>Simulacros y Repaso</h3>
+                    <p>Exámenes de repaso constante y pruebas simulacro para medir tu avance en condiciones reales.</p>
+                </div>
+
+                <div class="benefit-card reveal-up" style="animation-delay: 0.4s;">
+                    <div class="benefit-icon"><i class="fa-solid fa-user-gear"></i></div>
+                    <h3>Asesoría y Seguimiento</h3>
+                    <p>Atención personalizada y acompañamiento activo durante todo tu proceso de preparación.</p>
+                </div>
+
+                <div class="benefit-card reveal-up" style="animation-delay: 0.5s;">
+                    <div class="benefit-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>Grupo Exclusivo</h3>
+                    <p>Foro permanente vía WhatsApp para envío de avisos, ejercicios extra y resolución de dudas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUÉ INCLUYE -->
+    <section id="incluye" class="section-padding">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Todo lo que necesitas para prepararte</h2>
+                <p class="section-subtitle">Una experiencia educativa integral sin dejar nada al azar</p>
+            </div>
+
+            <div class="includes-wrapper">
+                <div class="includes-grid">
+                    <div class="include-item reveal-left">
+                        <div class="inc-check"><i class="fa-solid fa-circle-check"></i></div>
+                        <div>
+                            <h4>Clases en vivo</h4>
+                            <p>Aprende directamente con el profesor en sesiones estructuradas.</p>
+                        </div>
+                    </div>
+
+                    <div class="include-item reveal-left" style="animation-delay: 0.1s;">
+                        <div class="inc-check"><i class="fa-solid fa-circle-check"></i></div>
+                        <div>
+                            <h4>Plataforma 24/7</h4>
+                            <p>Repasa los temas estructurados cuando mejor te convenga.</p>
+                        </div>
+                    </div>
+
+                    <div class="include-item reveal-left" style="animation-delay: 0.2s;">
+                        <div class="inc-check"><i class="fa-solid fa-circle-check"></i></div>
+                        <div>
+                            <h4>Clases grabadas</h4>
+                            <p>Vuelve a consultar minuciosamente todas las explicaciones.</p>
+                        </div>
+                    </div>
+
+                    <div class="include-item reveal-left" style="animation-delay: 0.3s;">
+                        <div class="inc-check"><i class="fa-solid fa-circle-check"></i></div>
+                        <div>
+                            <h4>Banco de ejercicios</h4>
+                            <p>Refuerza lo aprendido con problemas prácticos seleccionados.</p>
+                        </div>
+                    </div>
+
+                    <div class="include-item reveal-right">
+                        <div class="inc-check"><i class="fa-solid fa-circle-check"></i></div>
+                        <div>
+                            <h4>Exámenes simulacro</h4>
+                            <p>Pon a prueba tu preparación en escenarios reales de examen.</p>
+                        </div>
+                    </div>
+
+                    <div class="include-item reveal-right" style="animation-delay: 0.1s;">
+                        <div class="inc-check"><i class="fa-solid fa-circle-check"></i></div>
+                        <div>
+                            <h4>Asesorías continuas</h4>
+                            <p>Aclara tus dudas conceptuales de forma personalizada.</p>
+                        </div>
+                    </div>
+
+                    <div class="include-item reveal-right" style="animation-delay: 0.2s;">
+                        <div class="inc-check"><i class="fa-solid fa-circle-check"></i></div>
+                        <div>
+                            <h4>Seguimiento activo</h4>
+                            <p>Acompañamiento pedagógico durante todo tu estudio.</p>
+                        </div>
+                    </div>
+
+                    <div class="include-item reveal-right" style="animation-delay: 0.3s;">
+                        <div class="inc-check"><i class="fa-solid fa-circle-check"></i></div>
+                        <div>
+                            <h4>Grupo de WhatsApp</h4>
+                            <p>Información constante y foro colaborativo de aprendizaje.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- METODOLOGÍA -->
+    <section id="metodologia" class="section-padding bg-alt">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Así es como aprendemos</h2>
+                <p class="section-subtitle">Nuestra ruta estratégica comprobada paso a paso</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-step reveal-up">
+                    <div class="step-num">01</div>
+                    <div class="step-card">
+                        <h3>Aprende</h3>
+                        <p>Adquiere la base teórica indispensable explicada sin rodeos técnicos innecesarios.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-up" style="animation-delay: 0.1s;">
+                    <div class="step-num">02</div>
+                    <div class="step-card">
+                        <h3>Comprende</h3>
+                        <p>Analiza el porqué de cada procedimiento con ejemplos claros y estructurados.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-up" style="animation-delay: 0.2s;">
+                    <div class="step-num">03</div>
+                    <div class="step-card">
+                        <h3>Practica</h3>
+                        <p>Resuelve ejercicios guiados y problemas con grado de dificultad progresivo.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-up" style="animation-delay: 0.3s;">
+                    <div class="step-num">04</div>
+                    <div class="step-card">
+                        <h3>Refuerza</h3>
+                        <p>Repasa los aspectos complejos con material complementario y tutorías de apoyo.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-up" style="animation-delay: 0.4s;">
+                    <div class="step-num">05</div>
+                    <div class="step-card">
+                        <h3>Simula</h3>
+                        <p>Enfréntate a reactivos cronometrados equivalentes al día de tu evaluación oficial.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-up" style="animation-delay: 0.5s;">
+                    <div class="step-num">06</div>
+                    <div class="step-card">
+                        <h3>Prepárate</h3>
+                        <p>Consolida la seguridad técnica y mental necesaria para lograr la máxima puntuación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REGULARIZACIÓN KIDS -->
+    <section id="kids" class="section-padding kids-section">
+        <div class="kids-floating-elements">
+            <span class="float-item float-1">+</span>
+            <span class="float-item float-2">÷</span>
+            <span class="float-item float-3">×</span>
+            <span class="float-item float-4">−</span>
+            <span class="float-item float-5">π</span>
+        </div>
+
+        <div class="container">
+            <div class="kids-card reveal-scale">
+                <div class="kids-grid">
+                    <div class="kids-content">
+                        <div class="kids-pill">
+                            <i class="fa-solid fa-child-reaching"></i> Especializados en los más pequeños
+                        </div>
+                        <h2>Regularización de Matemáticas</h2>
+                        <div class="kids-age-badge">Para niños de 6 a 13 años</div>
+                        <p>
+                            Transformamos la relación de tus hijos con las matemáticas. Método dinámico, amigable y divertido orientado a fortalecer las bases académicas, elevar sus calificaciones y desarrollar confianza lógica.
+                        </p>
+                        <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20interesa%20recibir%20información%20sobre%20las%20clases%20de%20regularización%20de%20matemáticas%20para%20niños." target="_blank" class="btn btn-kids">
+                            Quiero información <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <div class="kids-image-container">
+                        <div class="kids-img-bg"></div>
+                        <img src="ninos.png" alt="Regularización de Matemáticas para niños Mate Diamante" class="kids-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECOMENDACIONES -->
+    <section class="section-padding bg-alt">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Conoce nuestras recomendaciones</h2>
+                <p class="section-subtitle">La opinión de nuestra comunidad avala nuestro compromiso</p>
+            </div>
+
+            <div class="recommendations-container reveal-up">
+                <div class="rec-frame">
+                    <img src="recomendaciones.png" alt="Recomendaciones Mate Diamante" class="rec-img">
+                </div>
+                <div class="rec-action">
+                    <a href="https://www.facebook.com/profile.php?id=100079717452559&sk=reviews" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        Ver recomendaciones en Facebook <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-padding">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Preguntas frecuentes</h2>
+                <p class="section-subtitle">Resolvemos todas tus dudas antes de iniciar</p>
+            </div>
+
+            <div class="faq-accordion-container reveal-up">
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Para qué exámenes puedo prepararme?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>En Mate Diamante nos especializamos en exámenes de admisión universitaria (UNAM, IPN, UAM, EXANI-II), nivel medio superior (COMIPEMS y ECOEMS), acreditación de bachillerato (EXACER COLBACH, ACREDITA-BACH y CENEVAL) así como regularización de matemáticas para niños.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Qué incluye el curso?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nuestros cursos integran clases en vivo, acceso 24/7 a plataforma, grabaciones de las sesiones, bancos de ejercicios prácticos, exámenes simulacro, asesorías personalizadas para resolución de dudas y grupo de apoyo en WhatsApp.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Las clases son en vivo?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, contamos con sesiones interactivas totalmente en vivo conducidas por nuestros profesores especialistas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿También existen clases grabadas?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Así es. Las clases se quedan guardadas en la plataforma para que puedas revisarlas en todo momento.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Qué pasa si no puedo asistir a una clase?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No pierdes el tema. Al grabarse todas las sesiones, puedes acceder a la plataforma y regularizarte a tu ritmo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Hay exámenes de repaso?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, aplicamos evaluaciones periódicas de repaso para verificar tu nivel de retención y compresión por módulo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Realizan simulacros?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Efectivamente, llevamos a cabo pruebas simulacro con tiempos y reactivos ajustados a las especificaciones reales de cada institución.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Hay ejercicios?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Contamos con abundantes listas de ejercicios prácticos guiados y para resolución individual.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Existen asesorías?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, dispones de asesorías adicionales para aclarar cualquier duda particular en los temas más complejos.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Hay seguimiento?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ofrecemos acompañamiento pedagógico activo para asegurar tu ritmo óptimo de preparación.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Existe grupo de WhatsApp?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, contamos con un canal directo en WhatsApp para dar seguimiento, enviar material complementario y responder consultas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Puedo prepararme para UNAM?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>¡Por supuesto! Tenemos un programa especializado alineado a las áreas y exámenes de la UNAM.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Puedo prepararme para IPN?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, disponemos de preparación intensiva orientada al rigor del examen del Politécnico.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Puedo prepararme para UAM?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, abordamos la estructura temática específica requerida para ingresar a la UAM.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Tienen EXANI-II?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, contamos con un curso completo ajustado a la prueba EXANI-II de Ceneval.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Tienen COMIPEMS/ECOEMS?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, capacitamos a estudiantes de secundaria para obtener los mejores puntajes en su ingreso a nivel medio superior.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Preparan para acreditar la preparatoria?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, ofrecemos la preparación necesaria para certificar tu bachillerato a través de EXACER COLBACH, ACREDITA-BACH o CENEVAL Prepa en un examen.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Tienen regularización para niños?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, ofrecemos clases especializadas de regularización de matemáticas para niños entre 6 y 13 años.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Cómo solicito información?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Puedes escribirnos directamente a través de cualquiera de los botones de WhatsApp desplegados en nuestro sitio.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span><i class="fa-solid fa-circle-question"></i> ¿Cómo puedo agendar una cita?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Envíanos un mensaje vía WhatsApp indicando el curso de tu interés y agendaremos tu atención inmediata.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="faq-cta reveal-up">
+                <h3>¿Todavía tienes dudas?</h3>
+                <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20tengo%20algunas%20dudas%20adicionales." target="_blank" class="btn btn-whatsapp-cta">
+                    <i class="fa-brands fa-whatsapp"></i> Preguntar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section-padding bg-alt">
+        <div class="container">
+            <div class="contact-card reveal-up">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>¡Comienza hoy tu preparación!</h2>
+                        <p>Estamos disponibles para orientarte y resolver cualquier inquietud directamente en WhatsApp o nuestras redes sociales.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span>+52 1 55 4897 9978</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials">
+                            <a href="https://www.facebook.com/p/Mate-Diamante-100079717452559/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.tiktok.com/@mate.diamante" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="https://www.instagram.com/mate.diamante/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UC_r-LzVFF716Npf1spoVwdg" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-action-wrapper">
+                        <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20gustaría%20recibir%20atención%20personalizada." target="_blank" class="btn btn-primary btn-lg">
+                            Enviar mensaje por WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo-row">
+                    <img src="logomd.png" alt="Mate Diamante Logo" class="footer-logo">
+                    <span class="footer-brand-title">MATE DIAMANTE</span>
+                </div>
+                <p class="footer-desc">Plataforma líder en preparación académica integral para exámenes de admisión, bachillerato y fortalecimiento matemático.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#nosotros">¿Por qué nosotros?</a></li>
+                    <li><a href="#incluye">¿Qué incluye?</a></li>
+                    <li><a href="#metodologia">Metodología</a></li>
+                    <li><a href="#kids">Kids</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social-column">
+                <h4>Síguenos</h4>
+                <div class="footer-social-links">
+                    <a href="https://www.facebook.com/p/Mate-Diamante-100079717452559/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                    <a href="https://www.tiktok.com/@mate.diamante" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+                    <a href="https://www.instagram.com/mate.diamante/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="https://www.youtube.com/channel/UC_r-LzVFF716Npf1spoVwdg" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> Mate Diamante. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE ÚNICO WHATSAPP -->
+    <a href="https://wa.me/5215548979978?text=Hola,%20vengo%20de%20Mate%20Diamante%20y%20me%20gustaría%20solicitar%20información." target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JAVASCRIPT INTEGRADO -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Dinámico para el año del Footer
+            const yearSpan = document.getElementById('currentYear');
+            if(yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+            // 2. Sistema de Light / Dark Mode con LocalStorage y Sistema Operativo
+            const themeToggleBtn = document.getElementById('themeToggle');
+            const htmlElement = document.documentElement;
+
+            const savedTheme = localStorage.getItem('md-theme');
+            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+            // Aplicar tema inicial
+            if (savedTheme) {
+            htmlElement.setAttribute('data-theme', savedTheme);
+            } else {
+            htmlElement.setAttribute('data-theme', systemPrefersDark.matches ? 'dark' : 'light');
+            }
+
+            // Evento del botón
+            themeToggleBtn?.addEventListener('click', () => {
+                const currentTheme = htmlElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                htmlElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('md-theme', newTheme);
+            });
+
+            // Escuchar cambios en el sistema operativo si no hay preferencia guardada
+            systemPrefersDark.addEventListener('change', (e) => {
+                if (!localStorage.getItem('md-theme')) {
+                    htmlElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+                }
+            });
+
+            // 3. Menú Hamburguesa para Móviles
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('navMenu');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                });
+            });
+
+            // 4. Navbar Sticky con cambio de sombra/fondo en Scroll
+            const navbar = document.getElementById('navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 30) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+
+            // 5. Acordeón para FAQ
+            const faqQuestions = document.querySelectorAll('.faq-question');
+
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const item = question.parentElement;
+                    const isOpen = item.classList.contains('active');
+                    
+                    // Cerrar otros acordeones
+                    document.querySelectorAll('.faq-item').forEach(el => {
+                        el.classList.remove('active');
+                    });
+
+                    // Alternar el actual
+                    if (!isOpen) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+
+            // 6. Animaciones al hacer Scroll (Intersection Observer)
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15
+            };
+
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in-view');
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const revealElements = document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right, .reveal-scale');
+            revealElements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
